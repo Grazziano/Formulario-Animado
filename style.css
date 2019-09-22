@@ -101,3 +101,20 @@ form .btn-login {
         transform: translateX(0%);
     }
 }
+
+
+/* Quando clicar no botão sumo com o form*/
+
+.form-hide {
+    animation: down 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes down {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
